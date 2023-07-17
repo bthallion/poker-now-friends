@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "/*": ["./*"]
+    },
+    "module": "es2022",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es2021",
+    "outDir": "build",
+    "sourceMap": false,
+    "moduleResolution": "nodenext",
+    "declaration": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

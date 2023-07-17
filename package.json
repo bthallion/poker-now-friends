@@ -1,0 +1,33 @@
+{
+  "name": "poker-now-friends",
+  "version": "1.0.0",
+  "description": "discord bot for playing poker now with friends",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc | node build/index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bthallion/poker-now-friends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bthallion/poker-now-friends/issues"
+  },
+  "homepage": "https://github.com/bthallion/poker-now-friends#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/hapi__inert": "^5.2.3",
+    "@types/node": "^20.4.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "typescript": "^5.1.6"
+  },
+  "type": "module"
+}

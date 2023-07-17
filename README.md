@@ -1,3 +1,4 @@
-Discord Bot for PokerNow
+#PokerNow Discord Bot (For Friends!)
 
-This bot works on a different model than the official bot, players can add unlimited chips in their game, and the bot will track what they owe to the server.
+##Differences From Official Discord Bot
+- You can run a tab with the server, and settle at a later date. This is nice when you're playing with degens you trust to pay you later
